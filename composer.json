@@ -1,0 +1,14 @@
+{
+    "name": "themallen/mile",
+    "description": "mile is a simple file manipulation library",
+    "dev-require" : {
+        "php-unit" : "4.1.*"
+    },
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload" : {
+		"classmap": ["src/"]
+	},
+	"license": "MIT"
+}
