@@ -13,3 +13,6 @@ Let's say you need to create or overwrite a static file in an atomic operation (
 #### Functions
 * put - `put('a/path/to/something','some blob of text');`
 Mile writes to a temporary file and then uses rename as it is an atomic operation. If rename fails (on some windows hosts it will), it falls back to copy->unlink.
+
+### License
+[Don't be a dick](http://www.dbad-license.org/)
